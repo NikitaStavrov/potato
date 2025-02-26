@@ -1,0 +1,40 @@
+a.button{color:white;text-decoration:none}
+.button,.button:active,.button:focus{display:inline-block;text-align:center;margin:20px auto 20px auto}
+.button,button{color:#fff;font-family:Unicredit,Arial,sans-serif;font-weight:500;text-transform:uppercase;padding:0 16px;border-width:1px;border-style:solid;cursor:pointer;transition:background-color .2s ease,border-color .2s ease}
+.button.btn-small,button.btn-small{min-width:112px;height:32px;font-size:12px;line-height:30px;border-radius:4px}
+.button.btn-medium,button.btn-medium{min-width:152px;height:40px;font-size:14px;line-height:38px;border-radius:4px}
+.button.btn-large,button.btn-large{min-width:256px;height:48px;font-size:15px;line-height:46px;border-radius:4px}
+.button.primary,button.primary{background-color:var(--color-button-primary);border-color:var(--color-button-primary);color:white}
+.button.primary:focus-visible,button.primary:focus-visible,.button.secondary-dark:focus-visible,button.secondary-dark:focus-visible{outline:2px solid var(--color-button-primary) !important;outline-offset:2px;text-decoration:none}
+.product-card:hover button.primary[disabled],.scoring-form .button.primary[disabled]{background-color:#b2ebf2;border-color:#b2ebf2}
+.button.secondary-light,button.secondary-light{color:var(--color-text);background-color:var(--color-white);border:2px solid var(--color-text)}
+.button.secondary-light:focus-visible,button.secondary-light:focus-visible,.button.secondary-dark:focus-visible{outline:2px solid var(--color-button-primary) !important;outline-offset:2px;border-radius:4px}
+.product-card:hover button.secondary-light[disabled]{opacity:.4}
+.button.secondary-dark,button.secondary-dark{color:#fff;background-color:rgba(102,102,102,0.2);border-color:#fff}
+.not-mobile button.secondary-dark[disabled],.product-card:hover button.secondary-dark[disabled]{opacity:.4}
+button.borrowing,.not-mobile button.btn-ghost.borrowing:hover{background-color:#f50057;border-color:#f50057}
+.not-mobile button.borrowing:hover{background-color:#c51162;border-color:#c51162}
+.button.banking,button.banking{background-color:#3d5afe;border-color:#3d5afe}
+.button.saving,button.saving{background-color:#00e676;border-color:#00e676}
+button.insurance{background-color:#00acc1;border-color:#00acc1}
+button.digital,.not-mobile button.btn-ghost.digital:hover{background-color:#424242;border-color:#424242}
+.not-mobile button.digital:hover{background-color:#000;border-color:#000}
+.button.btn-ghost,button.btn-ghost{background-color:rgba(102,102,102,0.2);border-color:#fff}
+.button.btn-link,button.btn-link{color:var(--color-button-primary) !important;text-transform:uppercase;font-size:16px;font-weight:bold;line-height:18px;height:fit-content;padding:0 16px 0 0;margin:0;position:relative}
+.button.btn-link:after,button.btn-link:after{content:"";mask-image:url("../../cee2020-pws/img/svgs/right-arrow-icon.svg");mask-size:contain;display:block;position:absolute;right:0;top:1px;background-color:var(--color-button-primary);width:1em;height:1em;background-size:contain;transition-property:right,left;transition-duration:.3s;transition-timing-function:ease-in-out}
+.button.btn-link:hover,button.btn-link:hover{color:var(--color-button-hover) !important;text-decoration:none}
+.button.btn-link:hover:after,button.btn-link:hover:after{background-color:var(--color-button-hover) !important;right:-1em}
+.button.btn-link:focus-visible,button.btn-link:focus-visible{outline:2px solid var(--color-button-primary) !important;outline-offset:2px;border-radius:4px;text-decoration:none}
+@media(hover:hover),(-ms-high-contrast:none){a:hover{text-decoration:none}
+.button.primary:not([disabled]):hover,button.primary:not([disabled]):hover,.product-card:hover button.primary:not([disabled]){background-color:#006375;border-color:#006375}
+button.primary[disabled]{background-color:#b2ebf2;border-color:#b2ebf2}
+.button.saving:hover,button.saving:hover{background-color:#00c853;border-color:#00c853}
+button.insurance:hover{background-color:#0097a7;border-color:#0097a7}
+button.btn-ghost.insurance:hover{background-color:#00acc1;border-color:#00acc1}
+.button.secondary-light:not([disabled]):hover,button.secondary-light:not([disabled]):hover{color:var(--color-sidemenu-text);border-color:var(--color-sidemenu-text) !important}
+.button.secondary-light[disabled],button.secondary-light[disabled]{opacity:.4}
+.button.secondary-dark:not([disabled]):hover,button.secondary-dark:not([disabled]):hover{color:#fff;background-color:rgba(255,255,255,0.2)}
+button.btn-ghost.banking:hover{background-color:#3d5afe;border-color:#3d5afe}
+.button.banking:hover,button.banking:hover{background-color:#303f9f;border-color:#303f9f}
+button.btn-ghost.saving:hover{background-color:#00e676;border-color:#00e676}
+}
